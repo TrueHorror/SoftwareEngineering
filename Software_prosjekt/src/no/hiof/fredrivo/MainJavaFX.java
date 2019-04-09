@@ -44,42 +44,28 @@ public class MainJavaFX extends Application {
 
     public void showRegPage() throws IOException {
 
-        FXMLLoader loader = new FXMLLoader();
-
-        loader.setLocation(getClass().getResource("view/registrerUser.fxml"));
-        Parent rootNode = loader.load();
-
-        Scene hovedScene = new Scene(rootNode);
-
-        primaryStage.setTitle("Registrering");
-        primaryStage.setScene(hovedScene);
-        primaryStage.show();
+        showPage("Registreing", "view/registrerUser.fxml");
 
     }
 
     //TODO fikse view til Events og Profile
     public void showEventsPage() throws IOException {
-        FXMLLoader loader = new FXMLLoader();
-
-        loader.setLocation(getClass().getResource("view/registrerUser.fxml"));
-        Parent rootNode = loader.load();
-
-        Scene hovedScene = new Scene(rootNode);
-
-        primaryStage.setTitle("Registrering");
-        primaryStage.setScene(hovedScene);
-        primaryStage.show();
+        showPage("Arrangementer" ,"view/events.fxml");
     }
 
     public void showProfilePage() throws IOException {
+        showPage("Profil", "view/profile.fxml");
+    }
+
+    private void showPage(String title, String fxml) throws IOException {
         FXMLLoader loader = new FXMLLoader();
 
-        loader.setLocation(getClass().getResource("view/registrerUser.fxml"));
+        loader.setLocation(getClass().getResource(fxml));
         Parent rootNode = loader.load();
 
         Scene hovedScene = new Scene(rootNode);
 
-        primaryStage.setTitle("Registrering");
+        primaryStage.setTitle(title);
         primaryStage.setScene(hovedScene);
         primaryStage.show();
     }

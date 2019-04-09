@@ -7,13 +7,12 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="no.hiof.fredrivo.controller.ForsideController">
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="no.hiof.fredrivo.controller.FrontpageController">
    <children>
       <Button fx:id="loginPageButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Loginn" />
       <Button fx:id="eventsPageButton" layoutX="264.0" layoutY="14.0" mnemonicParsing="false" text="Arrangementer" />
       <Button fx:id="userProfilePageButton" layoutX="200.0" layoutY="14.0" mnemonicParsing="false" text="Profil" />
-      <Button fx:id="registrerUserPageButton" layoutX="81.0" layoutY="14.0" mnemonicParsing="false" onAction="#toRegisterPage" text="Registrer bruker" />
+      <Button fx:id="registrerUserPageButton" layoutX="81.0" layoutY="14.0" mnemonicParsing="false" text="Registrer bruker" />
       <AnchorPane layoutY="50.0" prefHeight="750.0" prefWidth="1000.0">
          <children>
             <Label alignment="CENTER" contentDisplay="CENTER" layoutX="355.0" layoutY="14.0" prefHeight="45.0" prefWidth="222.0" text="Loginn" textAlignment="CENTER" AnchorPane.bottomAnchor="697.0" AnchorPane.leftAnchor="355.0" AnchorPane.rightAnchor="423.0" AnchorPane.topAnchor="14.0">

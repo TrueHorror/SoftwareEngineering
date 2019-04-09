@@ -9,9 +9,9 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="no.hiof.fredrivo.controller.RegistrerController">
    <children>
-      <Button fx:id="loginPageButton" layoutX="24.0" layoutY="24.0" mnemonicParsing="false" text="Loginn" />
-      <Button fx:id="eventsPageButton" layoutX="274.0" layoutY="24.0" mnemonicParsing="false" text="Arrangementer" />
-      <Button fx:id="userProfilePageButton" layoutX="210.0" layoutY="24.0" mnemonicParsing="false" text="Profil" />
+      <Button fx:id="loginPageButton" layoutX="24.0" layoutY="24.0" mnemonicParsing="false" onAction="#goToStart" text="Loginn" />
+      <Button fx:id="eventsPageButton" layoutX="274.0" layoutY="24.0" mnemonicParsing="false" onAction="#goToEvents" text="Arrangementer" />
+      <Button fx:id="userProfilePageButton" layoutX="210.0" layoutY="24.0" mnemonicParsing="false" onAction="#goToProfile" text="Profil" />
       <Button fx:id="registrerUserPageButton" layoutX="91.0" layoutY="24.0" mnemonicParsing="false" text="Registrer bruker" />
       <AnchorPane layoutY="56.0" prefHeight="750.0" prefWidth="1000.0">
          <children>
