@@ -4,17 +4,15 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
 public class MainJavaFX extends Application {
+
     public static MainJavaFX javaFXApplication;
-
-    public Stage getPrimaryStage() {
-        return primaryStage;
-    }
-
+    private boolean logedIn = false;
     private Stage primaryStage;
 
     public static void main(String[] args) {
@@ -32,7 +30,7 @@ public class MainJavaFX extends Application {
 
         FXMLLoader fxmlLoader = new FXMLLoader();
 
-        fxmlLoader.setLocation(getClass().getResource("view/forside.fxml"));
+        fxmlLoader.setLocation(getClass().getResource("view/loginPage.fxml"));
         Parent rootNode = fxmlLoader.load();
 
         Scene mainScene = new Scene(rootNode);
@@ -43,7 +41,6 @@ public class MainJavaFX extends Application {
     }
 
     public void showRegPage() throws IOException {
-
         showPage("Registreing", "view/registrerUser.fxml");
 
     }
@@ -68,6 +65,27 @@ public class MainJavaFX extends Application {
         primaryStage.setTitle(title);
         primaryStage.setScene(hovedScene);
         primaryStage.show();
+    }
+
+    public void showAlert(String title, String message, Alert.AlertType alertType){
+        Alert alert = new Alert(alertType);
+        alert.setTitle(title);
+        alert.setHeaderText(null);
+        alert.setContentText(message);
+        alert.show();
+    }
+
+
+    public void setLogedIn(boolean logedIn) {
+        this.logedIn = logedIn;
+    }
+
+    public boolean isLogedIn() {
+        return logedIn;
+    }
+
+    public Stage getPrimaryStage() {
+        return primaryStage;
     }
 
 }

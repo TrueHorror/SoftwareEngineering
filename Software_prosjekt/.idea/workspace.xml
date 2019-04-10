@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ec1adf0-cb81-42a3-8c15-eb7fe591d847" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/Validation/InputValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/MainJavaFX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/MainJavaFX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/controller/FrontpageController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/controller/FrontpageController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/controller/FrontpageController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/controller/FrontpageController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/controller/FrontpageController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/controller/FrontpageController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/controller/FrontpageController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/controller/FrontpageController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/controller/FrontpageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/controller/FrontpageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/controller/RegistrerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/controller/RegistrerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/controller/forsideController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/model/InputValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/model/InputValidation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/view/forside.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/view/forside.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/model/InputValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/view/forside.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/view/registrerUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software_prosjekt/no/hiof/fredrivo/view/registrerUser.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/ForsideController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/FrontpageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/FrontpageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/RegistrerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/RegistrerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/model/InputValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/model/InputValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/view/forside.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/view/forside.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/model/InputValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/view/forside.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/view/registrerUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/view/registrerUser.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,61 +30,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
+            <state relative-caret-position="913">
+              <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
                 <element signature="e#453#454#0" expanded="true" />
                 <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#2126#2127#0" expanded="true" />
+                <element signature="e#2164#2165#0" expanded="true" />
+                <element signature="e#2198#2199#0" expanded="true" />
+                <element signature="e#2228#2229#0" expanded="true" />
+                <element signature="e#2266#2267#0" expanded="true" />
+                <element signature="e#2301#2302#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/model/Events.java">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/Validation/InputValidation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/model/InputValidation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/model/Profile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/RegistrerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="111" column="79" selection-start-line="111" selection-start-column="79" selection-end-line="111" selection-end-column="79" />
+            <state relative-caret-position="408">
+              <caret line="69" column="61" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="61" />
               <folding>
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1118#1119#0" expanded="true" />
-                <element signature="e#1281#1282#0" expanded="true" />
-                <element signature="e#1326#1327#0" expanded="true" />
-                <element signature="e#1484#1485#0" expanded="true" />
-                <element signature="e#1528#1529#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,31 +65,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/FrontpageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="255">
+              <caret line="66" column="56" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#999#1000#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1217#1218#0" expanded="true" />
+                <element signature="e#1258#1259#0" expanded="true" />
+                <element signature="e#1438#1439#0" expanded="true" />
+                <element signature="e#1479#1480#0" expanded="true" />
+                <element signature="e#1652#1653#0" expanded="true" />
+                <element signature="e#1693#1694#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/view/forside.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/Data/ReadAndWriteToJson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="99" lean-forward="true" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="99" />
+            <state relative-caret-position="34">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/view/registrerUser.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/RegistrerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-89">
-              <caret line="13" column="114" selection-start-line="13" selection-start-column="114" selection-end-line="13" selection-end-column="114" />
+            <state relative-caret-position="12">
+              <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+              <folding>
+                <element signature="e#1529#1530#0" expanded="true" />
+                <element signature="e#1584#1585#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/Navigation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,10 +134,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/Main.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/view/forside.fxml" />
-        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/FrontpageController.java" />
-        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/RegistrerController.java" />
-        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/model/InputValidation.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/RegistrerController.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/FrontpageController.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/Validation/InputValidation.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/Navigation.java" />
       </list>
     </option>
   </component>
@@ -148,7 +149,9 @@
     <option name="width" value="979" />
     <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -186,7 +189,21 @@
               <item name="Software_prosjekt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fredrivo" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software_prosjekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software_prosjekt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fredrivo" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software_prosjekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software_prosjekt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fredrivo" type="462c0819:PsiDirectoryNode" />
+              <item name="Validation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Software_prosjekt" type="b2602c69:ProjectViewProjectNode" />
@@ -204,9 +221,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554811731206" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554900678549" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="C:/Program Files/SceneBuilder/SceneBuilder.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Case-Use-Prosjektoppgave-2 (4).xml" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -265,13 +282,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7213000" />
+    <option name="totallyTimeSpent" value="21897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27248323" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19664429" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -295,7 +312,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="PlantUML" order="4" weight="0.3295302" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
@@ -338,17 +355,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java">
+    <entry file="file://$PROJECT_DIR$/../Case-Use-Prosjektoppgave-2 (4).xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/Data/ReadAndWriteToJson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="35" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -366,35 +379,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/RegistrerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+          <folding>
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1584#1585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/FrontpageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="255">
+          <caret line="66" column="56" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/Validation/InputValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="69" column="61" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/RegistrerController.java">
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/Navigation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="111" column="79" selection-start-line="111" selection-start-column="79" selection-end-line="111" selection-end-column="79" />
+        <state relative-caret-position="505">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding>
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1484#1485#0" expanded="true" />
-            <element signature="e#1528#1529#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/model/InputValidation.java">
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="913">
+          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#2126#2127#0" expanded="true" />
+            <element signature="e#2164#2165#0" expanded="true" />
+            <element signature="e#2198#2199#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2266#2267#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
