@@ -36,6 +36,8 @@ public class RegistrerController extends SuperController {
 
                 Profile profile = new Profile(email, password, name);
 
+                InputValidation.userExistsCheck(profile.getEmail());
+
                 InputValidation.regInputCheck(profile, repPassword);
             }
         });

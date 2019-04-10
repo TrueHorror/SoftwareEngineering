@@ -3,7 +3,7 @@ package no.hiof.fredrivo.Validation;
 import javafx.scene.control.Alert;
 import no.hiof.fredrivo.Data.DataHandler;
 import no.hiof.fredrivo.MainJavaFX;
-import no.hiof.fredrivo.controller.RegistrerController;
+import no.hiof.fredrivo.controller.Navigation;
 import no.hiof.fredrivo.model.Profile;
 
 public class InputValidation {
@@ -16,7 +16,7 @@ public class InputValidation {
         //minst 1 uppercase og ett tall.
 
         StringBuilder emptyValuesMessage = new StringBuilder();
-        if (inputIsNotEmpty(profile, repPassword)) {
+        if (regInputIsNotEmpty(profile, repPassword)) {
             if (profile.getName().isEmpty()) {
                 emptyValuesMessage.append("Fyll ut navn.\n");
             }
@@ -30,9 +30,7 @@ public class InputValidation {
                 emptyValuesMessage.append("Gjennta passord");
             }
 
-            String message = emptyValuesMessage.toString();
-
-            mainJavaFX.showAlert("Noen felt er ikke fylt i", message , Alert.AlertType.ERROR);
+            Navigation.goToAlertBox("Noen felt er ikke fylt i", emptyValuesMessage.toString(), Alert.AlertType.ERROR);
             return;
         }
 
@@ -43,15 +41,42 @@ public class InputValidation {
             count++;
         }
 
-        //REGEX OG KRAV:
-        //  ^                # Start på string.
-        // (?=.*[0-9])       # Minst ett tall.
-        // (?=.*[a-z])       # Minst en liten bokstav.
-        // (?=.*[A-Z])       # Minst en stor bokstav.
-        // (?=\S+$)          # Ingen mellomrom.
-        // .{8,20}           # Minst 8, maks 20 tegn.
-        // $                 # Slutt på string.
-        if (! (profile.getPassword().matches("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\\S+$).{8,20}$"))){
+        //REGEX OG KRAV FOR EMAIL TILLAT AV RFC 5322:
+        // ^                                  # Start på string
+        // [a-zA-Z0-9_!#$%&’*+/=?`{|}~^.-]    # Store og små bokstaver, tall og tegnene _!#$%&’*+/=?`{|}~^.- er lovlige før @
+        // +@                                 # @ kreves // forventes i mønsteret
+        // [a-zA-Z0-9.-]                      # Store og små bokstaver, tall og tegnene .-
+        // +$                                 # Slutt på string
+        //
+        //  Email kan ikke inneholde mer en 254 tegn.
+        if ( !(profile.getEmail().matches("^[a-zA-Z0-9_!#$%&’*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$")) ) {
+            validationMessage.append("\nFør @ er bare:\n" +
+                    "Store og små bokstaver,\n" +
+                    "tall,\n" +
+                    "Og tegnene: _!#$%&’*+/=?`{|}~^.- tilatte.\n" +
+                    "Etter @:\n" +
+                    "Store og små bokstaver,\n" +
+                    "tall og tegnene .-\n");
+            count++;
+        }
+
+        if (profile.getEmail().length() > 254 ){
+            validationMessage.append("Email kan ikke overstige 254 tegn.");
+            count++;
+        }
+
+
+
+
+        //REGEX OG KRAV FOR PASSORD:
+        //  ^                # Start på string
+        // (?=.*[0-9])       # Minst ett tall
+        // (?=.*[a-z])       # Minst en liten bokstav
+        // (?=.*[A-Z])       # Minst en stor bokstav
+        // (?=\S+$)          # Ingen mellomrom
+        // .{8,20}           # Minst 8, maks 20 tegn
+        // $                 # Slutt på string
+        if ( !(profile.getPassword().matches("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\\S+$).{8,20}$")) ){
             validationMessage.append("\nPassordene må inneholde:\n" +
                                     "Minst en stor bokstav.\n" +
                                     "Minst en liten bokstav.\n" +
@@ -68,31 +93,38 @@ public class InputValidation {
 
         if(count > 0) {
             String message = validationMessage.toString();
-            mainJavaFX.showAlert("Feil i navn felt.", message, Alert.AlertType.ERROR);
+            Navigation.goToAlertBox("Feil i navn felt.", message, Alert.AlertType.ERROR);
         }
+
+        //Registrerer brukeren hvis det ikke er noen feil i input.
         else{
             DataHandler.regNewUser(profile);
         }
 
-
-
-
-
     }
 
-    private static boolean inputIsNotEmpty(Profile profile, String repPassword) {
+
+
+    private static boolean regInputIsNotEmpty(Profile profile, String repPassword) {
         return profile.getName().isEmpty() || profile.getEmail().isEmpty() || profile.getPassword().isEmpty() || repPassword.isEmpty();
 
     }
 
-    public static boolean loginInputCheck(String email, String password){
+    public static boolean loginInputEmptyCheck(String email, String password){
         return email.isEmpty() || password.isEmpty();
         //TODO: Tekstfeltene i loginpage sjekes om er tomme og så kalles userExistsCheck().
     }
 
     public static boolean userExistsCheck(String email) {
+        //if email exists in users.json
+        if (true){
+            return true;
+        }
+        else{
+            return false;
+        }
+
         //TODO: hent info fra json i DataHandler og sjekk om email eksisterer.
-        return true;
     }
 
     private boolean logIn(String email, String password){

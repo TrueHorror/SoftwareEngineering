@@ -24,7 +24,7 @@
             <TextField fx:id="regUserEmailTextfield" layoutX="392.0" layoutY="196.0" />
             <PasswordField fx:id="regUserPasswordTextfield" layoutX="392.0" layoutY="248.0" />
             <PasswordField fx:id="regUserRepeatPasswordTextfield" layoutX="392.0" layoutY="293.0" />
-            <Button fx:id="regUserRegistrerButton" layoutX="477.0" layoutY="330.0" mnemonicParsing="false" onAction="#checkUerRegInputs" text="Registrer" />
+            <Button fx:id="regUserRegistrerButton" layoutX="477.0" layoutY="330.0" mnemonicParsing="false" text="Registrer" />
             <Label layoutX="392.0" layoutY="124.0" text="Navn" />
             <Label layoutX="392.0" layoutY="173.0" text="Email" />
             <Label layoutX="393.0" layoutY="227.0" text="Ønsket Passord" />

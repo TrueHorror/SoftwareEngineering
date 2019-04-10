@@ -44,7 +44,7 @@ public class Navigation {
                 }
                 else {
                     //TODO: Melding om at bruker må være innlogget.
-                    mainJavaFX.showAlert("Ingen inlogging", "Du må være innlogget for å åpne profilsiden", Alert.AlertType.INFORMATION);
+                    goToAlertBox("Ingen inlogging", "Du må være innlogget for å åpne profilsiden", Alert.AlertType.INFORMATION);
                 }
             } catch (IOException e) {
                 e.printStackTrace();
@@ -63,7 +63,8 @@ public class Navigation {
         }
     };
 
-    public static void goToAlertBox(){
+    public static void goToAlertBox(String title, String message, Alert.AlertType alertType){
+        mainJavaFX.showAlert(title, message, alertType);
         //TODO: Extract alle steder der alertbox blir kallt i inputValidation hit.
     }
 
