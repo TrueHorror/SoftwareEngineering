@@ -1,6 +1,7 @@
 package no.hiof.fredrivo.Validation;
 
 import javafx.scene.control.Alert;
+import no.hiof.fredrivo.Data.DataHandler;
 import no.hiof.fredrivo.MainJavaFX;
 import no.hiof.fredrivo.controller.RegistrerController;
 import no.hiof.fredrivo.model.Profile;
@@ -70,7 +71,7 @@ public class InputValidation {
             mainJavaFX.showAlert("Feil i navn felt.", message, Alert.AlertType.ERROR);
         }
         else{
-            RegistrerController.regNewUser(profile);
+            DataHandler.regNewUser(profile);
         }
 
 
@@ -80,20 +81,31 @@ public class InputValidation {
     }
 
     private static boolean inputIsNotEmpty(Profile profile, String repPassword) {
-        if (profile.getName().isEmpty() || profile.getEmail().isEmpty() || profile.getPassword().isEmpty() || repPassword.isEmpty()){
-            return true;
-        }
+        return profile.getName().isEmpty() || profile.getEmail().isEmpty() || profile.getPassword().isEmpty() || repPassword.isEmpty();
 
-        return false;
     }
 
-
-    public static void loginInputCheck(){
+    public static boolean loginInputCheck(String email, String password){
+        return email.isEmpty() || password.isEmpty();
         //TODO: Tekstfeltene i loginpage sjekes om er tomme og så kalles userExistsCheck().
     }
 
     public static boolean userExistsCheck(String email) {
-        //TODO: hent info fra json i ReadAndWriteToJson og sjekk om email eksisterer.
+        //TODO: hent info fra json i DataHandler og sjekk om email eksisterer.
         return true;
+    }
+
+    private boolean logIn(String email, String password){
+        //TODO: Funksjon for å logge inn og sette variabel logget inn til true.
+        boolean userExists = InputValidation.userExistsCheck(email); //returnere true/false
+        if (userExists){
+            return true;
+        }
+        //TODO: melding hvis det er feil innlogging informasjon.
+        else{
+            System.out.println("Finner ikke bruker.");
+        }
+
+        return false;
     }
 }
