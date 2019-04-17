@@ -3,6 +3,8 @@ package no.hiof.fredrivo.Data;
 import com.google.gson.Gson;
 import no.hiof.fredrivo.model.Profile;
 
+
+
 import java.io.*;
 import java.util.ArrayList;
 
@@ -21,8 +23,9 @@ public class DataHandler {
 
             BufferedReader b = new BufferedReader(new FileReader(fileName));
             //TODO: Virker dette? Finn ut en smart løsning på å lagre objektene i liste som kan søkes i senere (fine om email eksisterer.)
-            profileArrayList.add(gson.fromJson(b, Profile.class));
-            System.out.println(profileArrayList);
+            System.out.println(gson.fromJson(b, Profile.class));
+            //profileArrayList.add(gson.fromJson(b, Profile.class));
+            //System.out.println(profileArrayList);
 
 
 
@@ -45,6 +48,7 @@ public class DataHandler {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
 
     }
 

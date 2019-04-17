@@ -11,6 +11,9 @@ public class Events {
     private LocalDate eventTime;
     private Image eventImg;
     private String eventDescription;
+    private int id;
+
+
 
     public Events(String eventName, int totalTickets, int ticketsLeft, LocalDate eventTime, Image eventImg, String eventDescription) {
         this.eventName = eventName;
@@ -19,6 +22,7 @@ public class Events {
         this.eventTime = eventTime;
         this.eventImg = eventImg;
         this.eventDescription = eventDescription;
+        id++;
     }
 
     public String getEventName() {
@@ -67,5 +71,9 @@ public class Events {
 
     public void setEventDescription(String eventDescription) {
         this.eventDescription = eventDescription;
+    }
+
+    public int getId() {
+        return id;
     }
 }

@@ -6,7 +6,7 @@ public class Profile {
     private String email;
     private String password;
     private String name;
-    private ArrayList<Events> atendingEvents;
+    //private ArrayList<Events> atendingEvents;
 
     public Profile(String email, String password, String name) {
         this.email = email;
@@ -38,11 +38,16 @@ public class Profile {
         this.name = name;
     }
 
-    public ArrayList<Events> getAtendingEvents() {
+   /* public ArrayList<Events> getAtendingEvents() {
         return atendingEvents;
     }
 
     public void setAtendingEvents(ArrayList<Events> atendingEvents) {
         this.atendingEvents = atendingEvents;
+    }*/
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }

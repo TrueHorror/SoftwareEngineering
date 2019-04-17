@@ -12,8 +12,6 @@ public class InputValidation {
 
     public static void regInputCheck(Profile profile, String repPassword){
         mainJavaFX = MainJavaFX.javaFXApplication;
-        //passord: min 8 tegn max 20
-        //minst 1 uppercase og ett tall.
 
         StringBuilder emptyValuesMessage = new StringBuilder();
         if (regInputIsNotEmpty(profile, repPassword)) {

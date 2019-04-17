@@ -42,7 +42,7 @@ public class RegistrerController extends SuperController {
                 InputValidation.userExistsCheck(profile.getEmail());
 
                 InputValidation.regInputCheck(profile, repPassword);
-                DataHandler.readFromJson("users.json");
+                //DataHandler.readFromJson("users.json");
             }
         });
     }
