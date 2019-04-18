@@ -21,6 +21,7 @@ public class DataHandler {
             Gson gson = new Gson();
 
             BufferedReader b = new BufferedReader(new FileReader(fileName));
+
             //TODO: Virker dette? Finn ut en smart løsning på å lagre objektene i liste som kan søkes i senere (fine om email eksisterer.)
             System.out.println(gson.fromJson(b, Profile.class));
             //profileArrayList.add(gson.fromJson(b, Profile.class));
@@ -39,10 +40,10 @@ public class DataHandler {
 
             String jsonString = gson.toJson(profile);
 
-            FileWriter fileWriter = new FileWriter(jsonFile);
+            FileWriter fileWriter = new FileWriter(jsonFile, true);
 
             System.out.println("i got here");
-            fileWriter.write(jsonString);
+            fileWriter.append(jsonString);
             fileWriter.close();
 
         } catch (IOException e) {
