@@ -3,8 +3,6 @@ package no.hiof.fredrivo.Data;
 import com.google.gson.Gson;
 import no.hiof.fredrivo.model.Profile;
 
-
-
 import java.io.*;
 import java.util.ArrayList;
 
@@ -13,7 +11,8 @@ public class DataHandler {
     private static ArrayList<Profile> profileArrayList;
 
     public static void regNewUser(Profile profile) {
-        writeToJson(profile, "users.json");
+        File jsonFile = new File("src\\no\\hiof\\fredrivo\\Data\\users.json");
+        writeToJson(profile, jsonFile);
     }
 
     public static void readFromJson(String fileName){
@@ -34,14 +33,15 @@ public class DataHandler {
         }
     }
 
-    public static void writeToJson(Profile profile, String filename){
+    public static void writeToJson(Profile profile, File jsonFile){
         try {
             Gson gson = new Gson();
 
             String jsonString = gson.toJson(profile);
 
-            FileWriter fileWriter = new FileWriter(filename);
+            FileWriter fileWriter = new FileWriter(jsonFile);
 
+            System.out.println("i got here");
             fileWriter.write(jsonString);
             fileWriter.close();
 
