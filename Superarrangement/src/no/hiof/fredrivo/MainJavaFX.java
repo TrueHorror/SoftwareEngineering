@@ -6,6 +6,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.stage.Stage;
+import no.hiof.fredrivo.Data.DataHandler;
+import no.hiof.fredrivo.model.Profile;
 
 import java.io.IOException;
 

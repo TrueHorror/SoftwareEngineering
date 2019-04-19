@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ada92b-613d-49bd-9a36-d2de1426ed14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Superarrangement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Superarrangement.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/META-INF/Superarrangement.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/Data/DataHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/Data/DataHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/Data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/Data/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/MainJavaFX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/MainJavaFX.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/Validation/InputValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/Validation/InputValidation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/LoginController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/LoginController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/RegistrerController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/RegistrerController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/RegistrerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/RegistrerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/SuperController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/SuperController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/model/Events.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/model/Events.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/model/Profile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/model/Profile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/DataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/DataHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,25 +15,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/Data/DataHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-234">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="460">
+              <caret line="68" column="49" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,24 +32,97 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/model/Profile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="3" selection-end-line="46" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/model/Events.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/Validation/InputValidation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/RegistrerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/SuperController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/Navigation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/Data/users.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="98" lean-forward="true" selection-start-column="81" selection-end-column="98" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LocalDate</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -88,15 +130,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/model/Profile.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/users.json" />
+        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/RegistrerController.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/DataHandler.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="580" />
-    <option name="y" value="200" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -104,8 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,13 +215,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/javafx-sdk-11.0.2/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SecretCodeOOP/OOP2019/Oblig5_Alt1" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -228,17 +274,18 @@
       <updated>1555599910284</updated>
       <workItem from="1555599912565" duration="2138000" />
       <workItem from="1555616464870" duration="1535000" />
+      <workItem from="1555685765880" duration="9164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3673000" />
+    <option name="totallyTimeSpent" value="12837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25198728" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25397456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -253,7 +300,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32969603" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -304,34 +351,81 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java">
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/SuperController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/Navigation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/model/Events.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/Validation/InputValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/model/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="3" selection-end-line="46" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/RegistrerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/Data/users.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="98" lean-forward="true" selection-start-column="81" selection-end-column="98" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/Data/DataHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="49" />
+        <state relative-caret-position="460">
+          <caret line="68" column="49" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
