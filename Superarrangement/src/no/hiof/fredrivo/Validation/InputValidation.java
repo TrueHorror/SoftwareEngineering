@@ -6,7 +6,10 @@ import no.hiof.fredrivo.MainJavaFX;
 import no.hiof.fredrivo.controller.Navigation;
 import no.hiof.fredrivo.model.Profile;
 
+import java.util.ArrayList;
+
 public class InputValidation {
+    private static ArrayList<Profile> profilesArrayListForCheckingExistingEmail;
 
     private static MainJavaFX mainJavaFX;
 
@@ -15,6 +18,7 @@ public class InputValidation {
 
         StringBuilder emptyValuesMessage = new StringBuilder();
         if (regInputIsNotEmpty(profile, repPassword)) {
+
             if (profile.getName().isEmpty()) {
                 emptyValuesMessage.append("Fyll ut navn.\n");
             }
@@ -94,13 +98,17 @@ public class InputValidation {
         //Registrerer brukeren hvis det ikke er noen feil i input.
         else{
             DataHandler.regNewUser(profile);
+            DataHandler.setLoggedInProfile(profile);
+            System.out.println(profile);
+            mainJavaFX.setLogedIn(true);
+            Navigation.goToProfileHandler.handle(null);
         }
 
     }
 
 
 
-    private static boolean regInputIsNotEmpty(Profile profile, String repPassword) {
+    public static boolean regInputIsNotEmpty(Profile profile, String repPassword) {
         return profile.getName().isEmpty() || profile.getEmail().isEmpty() || profile.getPassword().isEmpty() || repPassword.isEmpty();
 
     }
@@ -112,27 +120,34 @@ public class InputValidation {
 
     public static boolean userExistsCheck(String email) {
         //TODO: if email exists in users.json
-        if (true){
-            return true;
-        }
-        else{
+        profilesArrayListForCheckingExistingEmail = DataHandler.readUsersFromJson("src\\no\\hiof\\fredrivo\\Data\\users.json");
+
+        if (profilesArrayListForCheckingExistingEmail.isEmpty())
             return false;
+        else {
+            for (Profile p: profilesArrayListForCheckingExistingEmail) {
+                if (email.equals(p.getEmail())){
+                    return true;
+                }
+            }
+
         }
 
-        //TODO: hent info fra json i DataHandler og sjekk om email eksisterer.
-    }
-
-    private boolean logIn(String email, String password){
-        //TODO: Funksjon for å logge inn og sette variabel logget inn til true.
-        boolean userExists = InputValidation.userExistsCheck(email); //returnere true/false
-        if (userExists){
-            return true;
-        }
-        //TODO: melding hvis det er feil innlogging informasjon.
-        else{
-            System.out.println("Finner ikke bruker.");
-        }
 
         return false;
     }
+
+    public static Profile getProfile(String email, String password){
+
+        profilesArrayListForCheckingExistingEmail = DataHandler.readUsersFromJson("src\\no\\hiof\\fredrivo\\Data\\users.json");
+
+        for (Profile p: profilesArrayListForCheckingExistingEmail) {
+            if (p.getEmail().equals(email) && p.getPassword().equals(password)){
+                return p;
+            }
+        }
+
+        return null;
+    }
+
 }

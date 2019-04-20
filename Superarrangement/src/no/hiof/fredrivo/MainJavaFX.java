@@ -5,16 +5,23 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
-import no.hiof.fredrivo.Data.DataHandler;
+import no.hiof.fredrivo.controller.CartBoxController;
+import no.hiof.fredrivo.model.Events;
 import no.hiof.fredrivo.model.Profile;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class MainJavaFX extends Application {
 
     public static MainJavaFX javaFXApplication;
     private boolean logedIn = false;
+    private static Profile loggedInProfile;
+
+
+
     private Stage primaryStage;
 
     public static void main(String[] args) {
@@ -39,6 +46,28 @@ public class MainJavaFX extends Application {
         primaryStage.setTitle("Loginn");
         primaryStage.setScene(mainScene);
         primaryStage.show();
+    }
+
+    public void showCheckOut(ArrayList<Events> cart) throws IOException {
+        FXMLLoader loader = new FXMLLoader();
+
+        loader.setLocation(getClass().getResource("view/cartBox.fxml"));
+        Parent rootNode = loader.load();
+        CartBoxController controller = loader.getController();
+
+        Stage cartStage = new Stage();
+
+        controller.setStage(cartStage);
+        controller.setCart(cart);
+
+        cartStage.initOwner(primaryStage);
+        cartStage.initModality(Modality.APPLICATION_MODAL);
+
+        Scene hovedScene = new Scene(rootNode);
+
+        cartStage.setTitle("Check out");
+        cartStage.setScene(hovedScene);
+        cartStage.showAndWait();
     }
 
     public void showRegPage() throws IOException {
@@ -88,5 +117,7 @@ public class MainJavaFX extends Application {
     public Stage getPrimaryStage() {
         return primaryStage;
     }
+
+
 
 }

@@ -1,0 +1,10 @@
+[
+  {
+    "price": 1000,
+    "eventName": "Sopplukking",
+    "totalTickets": 100,
+    "ticketsLeft": 100,
+    "eventDescription": "Bli med på tur i skogen for å plukke sopp!",
+    "id": 1
+  }
+]

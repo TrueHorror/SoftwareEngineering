@@ -5,22 +5,20 @@ import javafx.scene.image.Image;
 import java.time.LocalDate;
 
 public class Events {
+    private int price;
     private String eventName;
     private int totalTickets;
     private int ticketsLeft;
-    private LocalDate eventTime;
-    private Image eventImg;
     private String eventDescription;
     private int id;
 
 
 
-    public Events(String eventName, int totalTickets, int ticketsLeft, LocalDate eventTime, Image eventImg, String eventDescription) {
+    public Events(int price, String eventName, int totalTickets, int ticketsLeft, String eventDescription) {
+        this.price = price;
         this.eventName = eventName;
         this.totalTickets = totalTickets;
         this.ticketsLeft = ticketsLeft;
-        this.eventTime = eventTime;
-        this.eventImg = eventImg;
         this.eventDescription = eventDescription;
         id++;
     }
@@ -49,22 +47,6 @@ public class Events {
         this.ticketsLeft = ticketsLeft;
     }
 
-    public LocalDate getEventTime() {
-        return eventTime;
-    }
-
-    public void setEventTime(LocalDate eventTime) {
-        this.eventTime = eventTime;
-    }
-
-    public Image getEventImg() {
-        return eventImg;
-    }
-
-    public void setEventImg(Image eventImg) {
-        this.eventImg = eventImg;
-    }
-
     public String getEventDescription() {
         return eventDescription;
     }
@@ -75,5 +57,14 @@ public class Events {
 
     public int getId() {
         return id;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    @Override
+    public String toString() {
+        return eventName;
     }
 }

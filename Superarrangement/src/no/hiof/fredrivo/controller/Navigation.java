@@ -3,8 +3,10 @@ package no.hiof.fredrivo.controller;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.control.Alert;
+import no.hiof.fredrivo.Data.DataHandler;
 import no.hiof.fredrivo.MainJavaFX;
 import no.hiof.fredrivo.Validation.InputValidation;
+import no.hiof.fredrivo.model.Profile;
 
 import java.io.IOException;
 
@@ -22,6 +24,7 @@ public class Navigation {
             }
         }
     };
+
 
     public static EventHandler<ActionEvent> goToRegHandler = new EventHandler<ActionEvent>() {
         @Override
@@ -52,6 +55,14 @@ public class Navigation {
         }
     };
 
+    public static void goToProfilePage(){
+        try {
+            mainJavaFX.showProfilePage();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static EventHandler<ActionEvent> goToEventsHandler = new EventHandler<ActionEvent>() {
         @Override
         public void handle(ActionEvent event) {
@@ -69,7 +80,20 @@ public class Navigation {
     }
 
     public static void logIn(String email, String password){
+        //TODO: Lage Profile Objekt fra lese og sjekke opp mot email
+        Profile p = InputValidation.getProfile(email,password);
+        if (p == null){
+            Navigation.goToAlertBox("Finner ikke bruker", "Brukeren finnes ikke. Prøv annen email eller passord", Alert.AlertType.INFORMATION);
+        }
+        else {
+            mainJavaFX.setLogedIn(true);
+            DataHandler.setLoggedInProfile(p);
+            Navigation.goToProfilePage();
+        }
 
+
+        //TODO: sende med gjellende profile objekt fra login
+        //mainJavaFX.setLoggedInProfile(new Profile());
 
 
     }

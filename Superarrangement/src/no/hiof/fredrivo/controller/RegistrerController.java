@@ -3,9 +3,9 @@ package no.hiof.fredrivo.controller;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
-import no.hiof.fredrivo.Data.DataHandler;
 import no.hiof.fredrivo.MainJavaFX;
 import no.hiof.fredrivo.Validation.InputValidation;
 import no.hiof.fredrivo.model.Profile;
@@ -14,7 +14,7 @@ import no.hiof.fredrivo.model.Profile;
 public class RegistrerController extends SuperController {
 
     private MainJavaFX mainJavaFX;
-    private boolean inputOk;
+    private boolean emptyInputs;
 
     @FXML
     private TextField regUserNameTextfield,
@@ -37,12 +37,16 @@ public class RegistrerController extends SuperController {
 
                 Profile profile = new Profile(email, password, name);
 
-                //TODO: If test if user exists: alert
-                //TODO: false: regInputCheck().
-                InputValidation.userExistsCheck(profile.getEmail());
+                if (InputValidation.userExistsCheck(profile.getEmail())) {
+                    Navigation.goToAlertBox("Bruker finnes", "Det finnes allerede en bruker med denne emailen.", Alert.AlertType.INFORMATION);
+                }
+                else {
+                    InputValidation.regInputCheck(profile, repPassword);
 
-                InputValidation.regInputCheck(profile, repPassword);
-                //DataHandler.readFromJson("users.json");
+                }
+
+
+
             }
         });
     }
