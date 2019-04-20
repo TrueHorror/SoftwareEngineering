@@ -15,7 +15,7 @@ public class DataHandler {
     private static Profile loggedInProfile;
 
     public static void regNewUser(Profile profile) {
-        String jsonFile = "src\\no\\hiof\\fredrivo\\Data\\users.json";
+        String jsonFile = "users.json";
         ArrayList<Profile> profiles = new ArrayList<>();
         profiles.add(profile);
         writeToJson(profiles, jsonFile);
@@ -37,25 +37,17 @@ public class DataHandler {
 
             }
             else {
-                ArrayList<Profile> profilesFromJson = new ArrayList<>(Arrays.asList(profiles));
-                return profilesFromJson;
+                return new ArrayList<>(Arrays.asList(profiles));
 
             }
 
-
-
-            //TODO: Virker dette? Finn ut en smart løsning på å lagre objektene i liste som kan søkes i senere (fine om email eksisterer.)
-            //profileArrayList.add(gson.fromJson(b, Profile.class));
-            //System.out.println(profileArrayList);
-
-
-
-
         } catch (IOException e) {
             e.printStackTrace();
+            return new ArrayList<>();
         }
 
-        return null;
+
+
     }
 
     public static ArrayList<Events> readEventsFromJson(String jsonFile) {
@@ -117,4 +109,18 @@ public class DataHandler {
         return loggedInProfile;
     }
 
+    public static Profile createNewProfile(String name, String email, String password) {
+        return new Profile(email, password, name);
+    }
+
+    public static Profile getProfile(String email, String password){
+
+        for (Profile p:readUsersFromJson("users.json")) {
+            if (p.getEmail().toLowerCase().equals(email.toLowerCase()) && p.getPassword().equals(password)){
+                return p;
+            }
+        }
+
+        return null;
+    }
 }

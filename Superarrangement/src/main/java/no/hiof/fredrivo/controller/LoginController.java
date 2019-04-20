@@ -36,7 +36,9 @@ public class LoginController extends SuperController {
                     Navigation.goToAlertBox("Tomme tekstfelter.", "Fyll ut Email og Passord.", Alert.AlertType.INFORMATION);
                 }
                 else {
+
                     Navigation.logIn(emailTextfield.getText(), passwordField.getText());
+
 
                 }
             }

@@ -67,8 +67,13 @@ public class Navigation {
         @Override
         public void handle(ActionEvent event) {
             try {
-                if (mainJavaFX.isLogedIn())
-                mainJavaFX.showEventsPage();
+                if (mainJavaFX.isLogedIn()){
+                    mainJavaFX.showEventsPage();
+                }
+                else {
+                    goToAlertBox("Ingen inlogging", "Du må være innlogget for å åpne arrangementsiden", Alert.AlertType.INFORMATION);
+                }
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -77,12 +82,10 @@ public class Navigation {
 
     public static void goToAlertBox(String title, String message, Alert.AlertType alertType){
         mainJavaFX.showAlert(title, message, alertType);
-        //TODO: Extract alle steder der alertbox blir kallt i inputValidation hit.
     }
 
     public static void logIn(String email, String password){
-        //TODO: Lage Profile Objekt fra lese og sjekke opp mot email
-        Profile p = InputValidation.getProfile(email,password);
+        Profile p = DataHandler.getProfile(email,password);
         if (p == null){
             Navigation.goToAlertBox("Finner ikke bruker", "Brukeren finnes ikke. Prøv annen email eller passord", Alert.AlertType.INFORMATION);
         }
@@ -91,10 +94,6 @@ public class Navigation {
             DataHandler.setLoggedInProfile(p);
             Navigation.goToProfilePage();
         }
-
-
-        //TODO: sende med gjellende profile objekt fra login
-        //mainJavaFX.setLoggedInProfile(new Profile());
 
 
     }

@@ -1,9 +1,5 @@
 package no.hiof.fredrivo.model;
 
-import javafx.scene.image.Image;
-
-import java.time.LocalDate;
-
 public class Events {
     private int price;
     private String eventName;

@@ -1,0 +1,27 @@
+[
+  {
+    "email": "Fredrik@email.com",
+    "password": "Apekatt123",
+    "name": "Fredrik"
+  },
+  {
+    "email": "olsvold@gmail.com",
+    "password": "Ilovemario123",
+    "name": "FredrikTest"
+  },
+  {
+    "email": "Test@test.com",
+    "password": "Apekatt123",
+    "name": "Test Navn"
+  },
+  {
+    "email": "fredrik@gmail.com",
+    "password": "Apekatt123",
+    "name": "Fredrik"
+  },
+  {
+    "email": "testemail@email.com",
+    "password": "Apekatt123",
+    "name": "Fredrik"
+  }
+]

@@ -13,7 +13,7 @@ public class InputValidation {
 
     private static MainJavaFX mainJavaFX;
 
-    public static void regInputCheck(Profile profile, String repPassword){
+    public static boolean regInputCheck(Profile profile, String repPassword){
         mainJavaFX = MainJavaFX.javaFXApplication;
 
         StringBuilder emptyValuesMessage = new StringBuilder();
@@ -33,14 +33,17 @@ public class InputValidation {
             }
 
             Navigation.goToAlertBox("Noen felt er ikke fylt i", emptyValuesMessage.toString(), Alert.AlertType.ERROR);
-            return;
+
         }
 
         StringBuilder validationMessage = new StringBuilder();
-        int count = 0;
+        int inputErrors = 0;
+
+        //REGEX OG KRAV FOR NAVN:
+        //^[A-Za-z ]*$                        # Store og små bokstaver og mellomrom er tillat
         if (! (profile.getName().matches("^[A-Za-z ]*$"))){
             validationMessage.append("Navn kan bare ineholde store og små bokstaver.\n");
-            count++;
+            inputErrors++;
         }
 
         //REGEX OG KRAV FOR EMAIL TILLAT AV RFC 5322:
@@ -58,12 +61,12 @@ public class InputValidation {
                     "Etter @:\n" +
                     "Store og små bokstaver,\n" +
                     "tall og tegnene .-\n");
-            count++;
+            inputErrors++;
         }
 
         if (profile.getEmail().length() > 254 ){
             validationMessage.append("Email kan ikke overstige 254 tegn.");
-            count++;
+            inputErrors++;
         }
 
 
@@ -82,27 +85,27 @@ public class InputValidation {
                                     "Minst ett tall.\n" +
                                     "Ingen mellomrom.\n" +
                                     "Minst 8 tegn.\n");
-            count++;
+            inputErrors++;
         }
 
         if (!profile.getPassword().equals(repPassword)) {
             validationMessage.append("\nPassordene må matche.");
-            count++;
+            inputErrors++;
         }
 
-        if(count > 0) {
+        if(inputErrors > 0) {
             String message = validationMessage.toString();
             Navigation.goToAlertBox("Feil i navn felt.", message, Alert.AlertType.ERROR);
+            return false;
         }
 
         //Registrerer brukeren hvis det ikke er noen feil i input.
         else{
-            DataHandler.regNewUser(profile);
-            DataHandler.setLoggedInProfile(profile);
-            System.out.println(profile);
-            mainJavaFX.setLogedIn(true);
-            Navigation.goToProfileHandler.handle(null);
+
+
+            return true;
         }
+
 
     }
 
@@ -115,12 +118,12 @@ public class InputValidation {
 
     public static boolean loginInputEmptyCheck(String email, String password){
         return email.isEmpty() || password.isEmpty();
-        //TODO: Tekstfeltene i loginpage sjekes om er tomme og så kalles userExistsCheck().
+
     }
 
     public static boolean userExistsCheck(String email) {
         //TODO: if email exists in users.json
-        profilesArrayListForCheckingExistingEmail = DataHandler.readUsersFromJson("src\\no\\hiof\\fredrivo\\Data\\users.json");
+        profilesArrayListForCheckingExistingEmail = DataHandler.readUsersFromJson("users.json");
 
         if (profilesArrayListForCheckingExistingEmail.isEmpty())
             return false;
@@ -137,17 +140,6 @@ public class InputValidation {
         return false;
     }
 
-    public static Profile getProfile(String email, String password){
 
-        profilesArrayListForCheckingExistingEmail = DataHandler.readUsersFromJson("src\\no\\hiof\\fredrivo\\Data\\users.json");
-
-        for (Profile p: profilesArrayListForCheckingExistingEmail) {
-            if (p.getEmail().equals(email) && p.getPassword().equals(password)){
-                return p;
-            }
-        }
-
-        return null;
-    }
 
 }

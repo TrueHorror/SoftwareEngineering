@@ -49,7 +49,7 @@ public class EventsController extends SuperController {
 
         cart = new ArrayList<>();
 
-        eventsObservableList = FXCollections.observableArrayList(DataHandler.readEventsFromJson("src\\no\\hiof\\fredrivo\\Data\\events.json"));
+        eventsObservableList = FXCollections.observableArrayList(DataHandler.readEventsFromJson("events.json"));
         eventsListView.setItems(eventsObservableList);
 
         eventsListView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Events>() {
