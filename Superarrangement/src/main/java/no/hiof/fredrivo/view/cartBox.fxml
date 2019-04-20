@@ -10,7 +10,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="no.hiof.fredrivo.controller.CartBoxController">
    <children>
-      <ListView fx:id="itemsInCart" layoutX="54.0" layoutY="88.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="itemsInCartListView" layoutX="54.0" layoutY="88.0" prefHeight="200.0" prefWidth="200.0" />
       <TextField fx:id="cardNumberTextField" layoutX="324.0" layoutY="88.0" />
       <TextField fx:id="cardThreeDigitCodeTextField" layoutX="324.0" layoutY="140.0" prefHeight="26.0" prefWidth="47.0" />
       <Button fx:id="payButton" layoutX="481.0" layoutY="327.0" mnemonicParsing="false" text="Betal" />

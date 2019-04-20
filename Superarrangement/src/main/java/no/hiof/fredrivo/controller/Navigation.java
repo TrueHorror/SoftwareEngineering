@@ -67,6 +67,7 @@ public class Navigation {
         @Override
         public void handle(ActionEvent event) {
             try {
+                if (mainJavaFX.isLogedIn())
                 mainJavaFX.showEventsPage();
             } catch (IOException e) {
                 e.printStackTrace();

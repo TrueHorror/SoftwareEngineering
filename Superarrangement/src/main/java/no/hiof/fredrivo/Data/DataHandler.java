@@ -98,7 +98,6 @@ public class DataHandler {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
         }
         else {
             profiles.addAll(readUsersFromJson(jsonFile));
@@ -107,14 +106,7 @@ public class DataHandler {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
         }
-
-
-
-
-
-
     }
 
     public static void setLoggedInProfile(Profile loggedInProfile) {
@@ -124,6 +116,5 @@ public class DataHandler {
     public static Profile getLoggedInProfile() {
         return loggedInProfile;
     }
-
 
 }

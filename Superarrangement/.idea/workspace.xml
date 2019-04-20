@@ -2,45 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25d3c61f-fc52-43fb-9bf8-2dc3f6dfcf71" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Superarrangement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Superarrangement.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jackson-all-1.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jackson-core-2.9.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jackson-databind-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/json-simple-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/json-simple-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/Data/DataHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/Data/DataHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/Data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/Data/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/MainJavaFX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/MainJavaFX.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/Validation/InputValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/Validation/InputValidation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/LoginController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/LoginController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/Navigation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/RegistrerController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/RegistrerController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/RegistrerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/controller/RegistrerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/model/Events.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/model/Events.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/model/Profile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/model/Profile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/view/events.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/view/events.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/view/profile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superarrangement/no/hiof/fredrivo/view/profile.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/DataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/DataHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/Validation/InputValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/Validation/InputValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/Navigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/Navigation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/RegistrerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/RegistrerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/model/Events.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/model/Events.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/model/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/model/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/DataHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/events.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/users.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/Validation/InputValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/CartBoxController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/EventsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/Navigation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/ProfileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/RegistrerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/SuperController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/model/Events.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/model/Profile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/view/cartBox.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/view/events.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/view/profile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/fredrivo/view/profile.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/view/loginPage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/view/profile.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/fredrivo/view/registrerUser.fxml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,22 +39,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/ProfileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="60" column="32" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/CartBoxController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,13 +51,103 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/EventsController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/model/Events.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state>
+              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/Validation/InputValidation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/RegistrerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255">
+              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/MainJavaFX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/SuperController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/Data/DataHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-663">
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/Data/Receipt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/model/Profile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -120,16 +184,37 @@
         <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/view/event.fxml" />
         <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/Validation/InputValidation.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/view/events.fxml" />
-        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/DataHandler.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/events.json" />
         <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/model/Events.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/view/cartBox.fxml" />
-        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/Navigation.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/EventsController.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/Navigation.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/DataHandler.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/controller/CartBoxController.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/fredrivo/Data/Receipt.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/CartBoxController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/EventsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/Navigation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/ProfileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/RegistrerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/SuperController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/Data/DataHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/Data/Receipt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/model/Events.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/model/Profile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/Validation/InputValidation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/MainJavaFX.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="647" />
@@ -167,12 +252,29 @@
               <item name="Superarrangement" type="b2602c69:ProjectViewProjectNode" />
               <item name="Superarrangement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Superarrangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Superarrangement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Superarrangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Superarrangement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fredrivo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Superarrangement" type="b2602c69:ProjectViewProjectNode" />
               <item name="Superarrangement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fredrivo" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -180,6 +282,8 @@
               <item name="Superarrangement" type="b2602c69:ProjectViewProjectNode" />
               <item name="Superarrangement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fredrivo" type="462c0819:PsiDirectoryNode" />
               <item name="Data" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -187,6 +291,8 @@
               <item name="Superarrangement" type="b2602c69:ProjectViewProjectNode" />
               <item name="Superarrangement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fredrivo" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -194,6 +300,8 @@
               <item name="Superarrangement" type="b2602c69:ProjectViewProjectNode" />
               <item name="Superarrangement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fredrivo" type="462c0819:PsiDirectoryNode" />
               <item name="Validation" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -201,6 +309,8 @@
               <item name="Superarrangement" type="b2602c69:ProjectViewProjectNode" />
               <item name="Superarrangement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fredrivo" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -219,7 +329,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555780482359" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555782652138" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../OOP/oblig5/FilmSerieOversikt" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -294,7 +404,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37936000" />
+    <option name="totallyTimeSpent" value="40459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -309,7 +419,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,7 +436,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
+      <window_info active="true" anchor="right" id="Maven" order="6" visible="true" weight="0.3295302" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -366,11 +476,11 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/view/loginPage.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/view/loginPage.fxml">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/view/registrerUser.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/view/registrerUser.fxml">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
@@ -382,34 +492,14 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/Data/users.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/Data/users.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="21" selection-end-line="81" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/model/Profile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="29" />
-          <folding>
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/view/profile.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/view/profile.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
@@ -417,40 +507,14 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/Data/DataHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="68" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/Data/events.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/Data/events.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/model/Events.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1402#1403#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1385#1386#0" expanded="true" />
-            <element signature="e#1438#1439#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/view/cartBox.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/view/cartBox.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
@@ -458,54 +522,7 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/Validation/InputValidation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1027">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/RegistrerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/ProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/SuperController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/Navigation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/view/events.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/view/events.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="186" selection-start-line="10" selection-start-column="126" selection-end-line="10" selection-end-column="186" />
@@ -513,33 +530,131 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/MainJavaFX.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/CartBoxController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="60" column="32" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="32" />
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/EventsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/EventsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/fredrivo/controller/CartBoxController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/Navigation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/ProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/SuperController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/Data/Receipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/model/Events.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/model/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/MainJavaFX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/Validation/InputValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/controller/RegistrerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/hiof/fredrivo/Data/DataHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -9,7 +9,6 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import no.hiof.fredrivo.controller.CartBoxController;
 import no.hiof.fredrivo.model.Events;
-import no.hiof.fredrivo.model.Profile;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -18,7 +17,6 @@ public class MainJavaFX extends Application {
 
     public static MainJavaFX javaFXApplication;
     private boolean logedIn = false;
-    private static Profile loggedInProfile;
 
 
 
