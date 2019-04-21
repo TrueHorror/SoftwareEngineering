@@ -12,6 +12,11 @@ public class TestInputs {
     }
 
     @Test
+    public void testLoginInputEmptyCheckIsNotEmpty(){
+        assertFalse(InputValidation.loginInputEmptyCheck("fghj","asd"));
+    }
+
+    @Test
     public void testRegInputCheckReturnsTrueIfInputsIsValid(){
         //REGEX OG KRAV FOR EMAIL TILLAT AV RFC 5322:
         // [a-zA-Z0-9_!#$%&’*+/=?`{|}~^.-]    # Store og små bokstaver, tall og tegnene _!#$%&’*+/=?`{|}~^.- er lovlige før @

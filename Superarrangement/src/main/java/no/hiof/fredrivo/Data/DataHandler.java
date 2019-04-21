@@ -63,8 +63,7 @@ public class DataHandler {
 
             }
             else {
-                ArrayList<Events> eventsFromJson = new ArrayList<>(Arrays.asList(events));
-                return eventsFromJson;
+                return new ArrayList<>(Arrays.asList(events));
 
             }
 
@@ -73,7 +72,7 @@ public class DataHandler {
             e.printStackTrace();
         }
 
-        return null;
+        return new ArrayList<>();
     }
 
 

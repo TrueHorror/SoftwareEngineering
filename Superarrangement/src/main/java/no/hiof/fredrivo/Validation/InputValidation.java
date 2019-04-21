@@ -117,7 +117,10 @@ public class InputValidation {
     }
 
     public static boolean loginInputEmptyCheck(String email, String password){
-        return email.isEmpty() || password.isEmpty();
+        if (email.isEmpty() || password.isEmpty()){
+            return true;
+        }
+        return false;
 
     }
 

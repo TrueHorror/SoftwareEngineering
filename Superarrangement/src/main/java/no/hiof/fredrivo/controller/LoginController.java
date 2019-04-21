@@ -30,16 +30,13 @@ public class LoginController extends SuperController {
         loginButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                boolean emptyInput = InputValidation.loginInputEmptyCheck(emailTextfield.getText(), passwordField.getText());
+                boolean inputIsEmpty = InputValidation.loginInputEmptyCheck(emailTextfield.getText(), passwordField.getText());
 
-                if (emptyInput){
-                    Navigation.goToAlertBox("Tomme tekstfelter.", "Fyll ut Email og Passord.", Alert.AlertType.INFORMATION);
+                if (!inputIsEmpty){
+                    Navigation.logIn(emailTextfield.getText(), passwordField.getText());
                 }
                 else {
-
-                    Navigation.logIn(emailTextfield.getText(), passwordField.getText());
-
-
+                    Navigation.goToAlertBox("Tomme tekstfelter.", "Fyll ut Email og Passord.", Alert.AlertType.INFORMATION);
                 }
             }
         });
