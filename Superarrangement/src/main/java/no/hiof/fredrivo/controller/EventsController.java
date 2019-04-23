@@ -39,6 +39,7 @@ public class EventsController extends SuperController {
     private ObservableList<Events> eventsObservableList;
     private Events events;
     private ArrayList<Events> cart;
+    private int ticketsLeft;
 
     private MainJavaFX mainJavaFX;
 
@@ -65,7 +66,11 @@ public class EventsController extends SuperController {
             @Override
             public void handle(ActionEvent event) {
                 if (events != null){
+                    ticketsLeft = events.getTicketsLeft();
+                    ticketsLeft--;
+                    events.setTicketsLeft(ticketsLeft);
                     cart.add(events);
+
                 }
             }
         });

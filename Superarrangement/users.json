@@ -1,5 +1,25 @@
 [
   {
+    "email": "asdffdsafsd@asdasd.com",
+    "password": "Apekatt123",
+    "name": "asdfsdaf"
+  },
+  {
+    "email": "tetet@sdf.com",
+    "password": "Apekatt123",
+    "name": "test test"
+  },
+  {
+    "email": "olsvold@enail.com",
+    "password": "Apekatt123",
+    "name": "Olsvold"
+  },
+  {
+    "email": "Fredrik_olsvold@email.com",
+    "password": "Apekatt123",
+    "name": "Fredrik Olsvold"
+  },
+  {
     "email": "Fredrik@email.com",
     "password": "Apekatt123",
     "name": "Fredrik"

@@ -39,14 +39,14 @@ public class RegistrerController extends SuperController {
 
                 DataHandler.setNewProfile(DataHandler.createNewProfile(email, password, name));
 
-                if (InputValidation.userExistsCheck(newProfile.getEmail())) {
+                if (InputValidation.userExistsCheck(email)) {
                     Navigation.goToAlertBox("Bruker finnes", "Det finnes allerede en bruker med denne emailen.", Alert.AlertType.INFORMATION);
                 }
                 else {
-                    if (InputValidation.regInputCheck(newProfile, repPassword)){
-                        DataHandler.regNewUser(newProfile);
-                        DataHandler.setLoggedInProfile(newProfile);
-                        mainJavaFX.setLogedIn(true);
+                    if (InputValidation.regInputCheck(DataHandler.getNewProfile(), repPassword)){
+                        DataHandler.regNewUser(DataHandler.getNewProfile());
+                        DataHandler.setLoggedInProfile(DataHandler.getNewProfile());
+                        MainJavaFX.javaFXApplication.setLogedIn(true);
                         Navigation.goToProfileHandler.handle(null);
                     }
 
@@ -60,8 +60,5 @@ public class RegistrerController extends SuperController {
 
     }
 
-    public Profile getNewProfile() {
-        return newProfile;
-    }
 
 }
