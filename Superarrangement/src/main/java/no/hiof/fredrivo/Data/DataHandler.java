@@ -13,6 +13,7 @@ public class DataHandler {
 
 
     private static Profile loggedInProfile;
+    private static Profile newProfile;
 
     public static void regNewUser(Profile profile) {
         String jsonFile = "users.json";
@@ -108,8 +109,9 @@ public class DataHandler {
         return loggedInProfile;
     }
 
-    public static Profile createNewProfile(String name, String email, String password) {
-        return new Profile(email, password, name);
+    public static Profile createNewProfile(String email, String password, String name) {
+        newProfile = new Profile(email, password, name);
+        return newProfile;
     }
 
     public static Profile getProfile(String email, String password){
@@ -121,5 +123,13 @@ public class DataHandler {
         }
 
         return null;
+    }
+
+    public static void setNewProfile(Profile newProfile) {
+        DataHandler.newProfile = newProfile;
+    }
+
+    public static Profile getNewProfile() {
+        return newProfile;
     }
 }

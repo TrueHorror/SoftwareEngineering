@@ -99,10 +99,7 @@ public class InputValidation {
             return false;
         }
 
-        //Registrerer brukeren hvis det ikke er noen feil i input.
         else{
-
-
             return true;
         }
 

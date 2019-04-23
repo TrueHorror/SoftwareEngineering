@@ -14,8 +14,9 @@ import no.hiof.fredrivo.model.Profile;
 
 public class RegistrerController extends SuperController {
 
+    private Profile newProfile;
     private MainJavaFX mainJavaFX;
-    private boolean emptyInputs;
+
 
     @FXML
     private TextField regUserNameTextfield,
@@ -36,15 +37,15 @@ public class RegistrerController extends SuperController {
                 String repPassword = regUserRepeatPasswordTextfield.getText();
                 String password = regUserPasswordTextfield.getText();
 
-                Profile profile = DataHandler.createNewProfile(name, email, password);
+                DataHandler.setNewProfile(DataHandler.createNewProfile(email, password, name));
 
-                if (InputValidation.userExistsCheck(profile.getEmail())) {
+                if (InputValidation.userExistsCheck(newProfile.getEmail())) {
                     Navigation.goToAlertBox("Bruker finnes", "Det finnes allerede en bruker med denne emailen.", Alert.AlertType.INFORMATION);
                 }
                 else {
-                    if (InputValidation.regInputCheck(profile, repPassword)){
-                        DataHandler.regNewUser(profile);
-                        DataHandler.setLoggedInProfile(profile);
+                    if (InputValidation.regInputCheck(newProfile, repPassword)){
+                        DataHandler.regNewUser(newProfile);
+                        DataHandler.setLoggedInProfile(newProfile);
                         mainJavaFX.setLogedIn(true);
                         Navigation.goToProfileHandler.handle(null);
                     }
@@ -56,6 +57,11 @@ public class RegistrerController extends SuperController {
 
             }
         });
+
+    }
+
+    public Profile getNewProfile() {
+        return newProfile;
     }
 
 }
