@@ -41,12 +41,12 @@ public class Navigation {
         @Override
         public void handle(ActionEvent event) {
             try {
-                //TODO: Sjekk om det finnes en innlogging.
+                //Sjekk om det finnes en innlogging.
                 if (mainJavaFX.isLogedIn()) {
                     mainJavaFX.showProfilePage();
                 }
                 else {
-                    //TODO: Melding om at bruker må være innlogget.
+                    //Melding om at bruker må være innlogget.
                     goToAlertBox("Ingen inlogging", "Du må være innlogget for å åpne profilsiden", Alert.AlertType.INFORMATION);
                 }
             } catch (IOException e) {

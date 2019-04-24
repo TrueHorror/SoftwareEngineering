@@ -73,7 +73,6 @@ public class MainJavaFX extends Application {
 
     }
 
-    //TODO fikse view til Events og Profile
     public void showEventsPage() throws IOException {
         showPage("Arrangementer" ,"view/events.fxml");
     }

@@ -8,10 +8,7 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextArea;
+import javafx.scene.control.*;
 import javafx.scene.text.Text;
 import no.hiof.fredrivo.Data.DataHandler;
 import no.hiof.fredrivo.MainJavaFX;
@@ -65,12 +62,11 @@ public class EventsController extends SuperController {
         addToCartButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                if (events != null){
+                if (event != null){
                     ticketsLeft = events.getTicketsLeft();
                     ticketsLeft--;
                     events.setTicketsLeft(ticketsLeft);
                     cart.add(events);
-
                 }
             }
         });
@@ -79,7 +75,13 @@ public class EventsController extends SuperController {
             @Override
             public void handle(ActionEvent event) {
                 try {
-                    mainJavaFX.showCheckOut(cart);
+                    if (cart.isEmpty()){
+                        Navigation.goToAlertBox("Tom varekurv", "Ingen arrangementer i varekurven.", Alert.AlertType.WARNING);
+
+                    }
+                    else {
+                        mainJavaFX.showCheckOut(cart);
+                    }
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

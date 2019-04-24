@@ -1,5 +1,10 @@
 [
   {
+    "email": "Fredrik-olsvold@email.com",
+    "password": "Apekatt123",
+    "name": "Fredrik"
+  },
+  {
     "email": "asdffdsafsd@asdasd.com",
     "password": "Apekatt123",
     "name": "asdfsdaf"

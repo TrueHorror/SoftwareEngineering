@@ -122,9 +122,10 @@ public class InputValidation {
     }
 
     public static boolean userExistsCheck(String email) {
-        //TODO: if email exists in users.json
+
         profilesArrayListForCheckingExistingEmail = DataHandler.readUsersFromJson("users.json");
 
+        //if email exists in users.json
         if (profilesArrayListForCheckingExistingEmail.isEmpty())
             return false;
         else {
